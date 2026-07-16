@@ -1,0 +1,46 @@
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+
+# iOS
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+
+# .NET
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.idea/
+*.iml
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/secrets.json
+
+# Operating system
+.DS_Store
+Thumbs.db
